@@ -1,0 +1,329 @@
+.parent{
+	display: block;
+	
+
+}
+p{
+	text-align: center;
+}
+.exercise1{
+	display: block;
+	
+
+}
+.flexstart{
+	display: flex;
+	border: 2px solid green;
+	height: 60px;
+	justify-content: flex-start;
+}
+.childflexstart{
+	border: 2px solid yellow;
+	width: 50px;
+	height: 50px;
+	margin: 2px;
+}
+.centerr{
+	display: flex;
+	justify-content: center;
+	height: 60px;
+	border: 2px solid green;
+}
+.childcenter{
+	border: 2px solid yellow;
+	width: 50px;
+	height: 50px;
+	margin: 2px;
+}
+.flexend{
+	display: flex;
+	justify-content: flex-end;
+	height: 60px;
+	border: 2px solid green;
+}
+.childflexend{
+	border: 2px solid yellow;
+	width: 50px;
+	height: 50px;
+	margin: 2px;
+}
+.spacebetween{
+	display: flex;
+	justify-content: space-between;
+	height: 60px;
+	border: 2px solid green;
+}
+.childspacebetween{
+	border: 2px solid yellow;
+	width: 50px;
+	height: 50px;
+	margin: 2px;
+}
+.spacearound{
+	display: flex;
+	justify-content: space-around;
+	height: 60px;
+	border: 2px solid green;
+}
+.childspacearound{
+	border: 2px solid yellow;
+	width: 50px;
+	height: 50px;
+	margin: 2px;
+}
+.spaceevenly{
+	display: flex;
+	justify-content: space-around;
+	height: 60px;
+	border: 2px solid green;
+}
+.childspaceevenly{
+	border: 2px solid yellow;
+	width: 50px;
+	height: 50px;
+	margin: 2px;
+}
+.exercise2{
+	display: block;
+	height: 600px;
+	
+}
+.aflexstart{
+	display: flex;
+	align-items: flex-start;
+	height: 100px;
+	border: 2px solid green;
+}
+.childaflexstart{
+	border: 2px solid yellow;
+	width: 50px;
+	height: 50px;
+	margin: 2px;
+}
+.acenterr{
+	display: flex;
+	align-items: center;
+	height: 100px;
+	border: 2px solid green;
+	
+}
+.childacenterr{
+	border: 2px solid yellow;
+	width: 50px;
+	height: 50px;
+	margin: 2px;
+}
+.aflexend{
+	display: flex;
+	align-items: flex-end;
+	height: 100px;
+	border: 2px solid green;
+	
+}
+.childaflexend{
+	border: 2px solid yellow;
+	width: 50px;
+	height: 50px;
+	margin: 2px;
+}
+.exercise3{
+	display: block;
+	height: 300px;
+	
+}
+.mix{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	border: 2px solid green;
+}
+.childmix{
+	border: 2px solid yellow;
+	width: 50px;
+	height: 50px;
+	margin: 2px;
+}
+.exercise4{
+	display: block;
+}
+.first{
+	display: flex;
+	justify-content: space-around;
+}
+.firstchildfirst{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid green;
+	width: 100px;
+	height: 500px;
+	margin: 2px;
+}
+.childfirstchildfirst{
+	width: 95px;
+	height: 100px;
+	border: 2px solid yellow;
+	margin: 1px;
+}
+.secondchildfirst{
+	border: 2px solid green;
+	width: 100px;
+	height: 500px;
+	margin: 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	
+}
+.childsecondchildfirst{
+	width: 95px;
+	height: 100px;
+	border: 2px solid yellow;
+	margin: 1px;
+}
+.thirdchildfirst{
+	border: 2px solid green;
+	width: 100px;
+	height: 500px;
+	margin: 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.childthirdchildfirst{
+	width: 95px;
+	height: 100px;
+	border: 2px solid yellow;
+	margin: 1px;
+}
+.fourthchildfirst{
+	border: 2px solid green;
+	width: 100px;
+	height: 500px;
+	margin: 2px;
+	display: flex;
+	flex-direction: column-reverse;
+}
+.childfourthchildfirst{
+	width: 95px;
+	height: 100px;
+	border: 2px solid yellow;
+	margin: 1px;
+}
+.fifthchildfirst{
+	border: 2px solid green;
+	width: 100px;
+	height: 500px;
+	margin: 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.childfifthchildfirst{
+	width: 95px;
+	height: 100px;
+	border: 2px solid yellow;
+	margin: 1px;
+}
+.sixthchildfirst{
+	border: 2px solid green;
+	width: 100px;
+	height: 500px;
+	margin: 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.childsixthchildfirst{
+	width: 95px;
+	height: 100px;
+	border: 2px solid yellow;
+	margin: 1px;
+}
+.second{
+	display: flex;
+	justify-content: space-around;
+}
+.firstchildsecond{
+	border: 2px solid green;
+	width: 200px;
+	height: 500px;
+	margin: 2px;
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+}
+.childfirstchildsecond{
+	width: 95px;
+	height: 100px;
+	border: 2px solid yellow;
+	margin: 1px;
+}
+.secondchildsecond{
+	border: 2px solid green;
+	width: 200px;
+	height: 500px;
+	margin: 2px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.childsecondchildsecond{
+	width: 95px;
+	height: 100px;
+	border: 2px solid yellow;
+	margin: 1px;
+}
+.thirdchildsecond{
+	border: 2px solid green;
+	width: 200px;
+	height: 500px;
+	margin: 2px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.childthirdchildsecond{
+	width: 95px;
+	height: 100px;
+	border: 2px solid yellow;
+	margin: 1px;
+}
+.third{
+	display: flex;
+	justify-content: center;
+}
+.thirdchild{
+	border: 2px solid green;
+	width: 200px;
+	height: 500px;
+	margin: 2px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.childthirdchild{
+	width: 95px;
+	height: 100px;
+	border: 2px solid yellow;
+	margin: 1px;
+}
+.alignself{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	border: 2px solid green;
+}
+.childalignself{
+	border: 2px solid yellow;
+	width: 50px;
+	height: 50px;
+	margin: 2px;
+}
+.childalignself:nth-child(3){
+	align-self: flex-start;
+}
+
