@@ -73,7 +73,7 @@ p{
 }
 .spaceevenly{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	height: 60px;
 	border: 2px solid green;
 }
